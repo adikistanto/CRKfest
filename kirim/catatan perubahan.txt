@@ -1,0 +1,17 @@
+catatan perubahan
+1. penambahan qoute slider pada home, ada file .js baru sama perubahan pada index.php bagian section1 /*paling baru*/
+2. ganti icon sosial media pada index.php, ada perubahan css-nya juga
+3. pasang icon sponsor n media partner, ada perubahan css-nya juga
+4. penambahan logo P3I n suara merdeka di home, ada penambahan css juga
+5. perubahan hover mode pada menu utama home, ada penambahan css
+6. pengisian halaman tentang caraka, ada penambahan garis <hr> file tentangcaraka.php
+7. pengisian dan edit halaman sambutan ketua panitia file sambutanpanitia.php
+8. pengisian dan edit halaman testimonial.php
+9. pengisian halaman contact.php
+10. halaman baru pada news.php
+11. perubahan gallery,
+12. penambahan halaman baru gallery
+
+untuk beberapa perubahan ada komen "paling baru"
+sementara ini, nanti kalo ada yang tidak jelas disampaikan pas ketemu,
+terima kasih

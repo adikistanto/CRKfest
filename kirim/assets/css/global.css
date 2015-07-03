@@ -1,0 +1,361 @@
+/*=========================  page   ==========================================*/
+ul{list-style:none}
+a{text-decoration:none;
+	}
+h1{
+	font-size:45px;
+	font-weight:bold;
+	margin:5px 5px 25px 15px;
+}
+h2{
+	font-size:38px;
+	font-weight:bold;
+	margin:5px 5px 20px 15px;
+}
+h3{
+	font-size:30px;
+	font-weight:bold;
+	margin:5px 5px 15px 10px;
+}
+h4{
+	font-size:24px;
+	font-weight:bold;
+	margin:5px 5px 10px 5px;
+}
+h5{
+	font-size:18px;
+	font-weight:bold;
+	margin:5px 5px 5px 5px;
+}
+@font-face{
+    font-family: 'SciFly-Sans';
+    src:url('../font/SciFly-Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family:'SciFly-Sans',Open Sans,Helvetica,sans-serif;
+    font-size: 16px;
+	color:#2D2C29;
+}
+#wrapper{/*berubah*/
+	width:77%;
+	float:right;
+	margin: 0px;
+	/*z-index:-1*/
+}
+/*--- left ----*/
+#left_side{/*paling baru*/
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:23%;
+	float:left;
+	height:100%;
+	background:#E5322D;
+	z-index:1;
+}
+
+#maskot_box{/*berubah*/
+	margin:40px 0px 0px 0px;
+	width:50%;
+	height:auto;
+	/*float:left*/
+}
+#page_label{/*berubah*/
+	width:50%;
+	height:30px;
+	clear:both;
+	color:#fff;
+	border-radius:15px;
+	background:#FFCE3A;
+	margin:50px 0px 0px 0px;
+	text-align:center;
+	font-weight:bold;
+	padding:20px 5px 10px 5px;
+	font-size:20px;
+}
+#sub_menu{/*berubah*/
+	width:70%;
+	height:auto;
+	clear:both;
+	margin:30px 0px 0px 0px;
+}
+.sub_menu_label{
+	float:left;
+	margin:0px 0px 0px 40px;
+	clear:both;
+	height:40px;
+	color:white;
+	font-weight:bold;
+}
+/*--- right ---*/
+#page_header{ /*berubah*/
+	width:100%;
+	float:left;
+	padding-bottom:20px;
+	background: #FFF;
+	z-index:0;
+	/*border-bottom:solid 2px #FA6D6D;*/
+}
+.mini_logo{/*berubah*/
+	float:right;
+	margin:15px 40px 10px 0px;
+}
+#watermark{/*tambahan*/
+	position:absolute;
+	top:170px;
+	left:500px;
+	width:500px;
+	height:auto;
+	opacity:0.05;
+}
+/*=========================  login  ==========================================*/
+
+#login_area{
+	width:500px;
+	height:400px;
+	float:left;
+	margin:100px 0px 0px 300px;
+}
+
+.input_form{
+	width:300px;
+	height:30px;
+	border-radius:5px;
+	font-size:15px;
+}
+
+.sector{
+	width:100%;
+	float:left;
+	clear:both;
+}
+#sector_label{ /*paling baru*/
+	float:left;
+	margin:30px 0px 0px 30px;
+	padding:10px;
+}
+.brown_bg{
+	background:#F9E29E;
+}
+
+.grey_bg{
+	background:#D9C9B3;
+}
+.yellow_bg{
+	background:#FFCC3A;
+}
+.black_bg{
+	background:#fff;
+}
+
+#content_big_image{
+	height:500px;
+	width:970px;
+	float:left;
+	clear:both;
+	margin:0px 0px 30px 30px;
+}
+#content_page{
+	width:90%;
+	float:left;
+	clear:both;
+	margin:0px 0px 30px 30px;}
+#footer{
+	width:100%;
+	height:100px;
+	float:left;
+	clear:both;
+	background:white;
+}
+#mask_small{
+	width:100%;
+	height:20px;
+	float:left;
+	clear:both;
+}
+#mask_medium{
+	width:100%;
+	height:82px;
+	float:left;
+	clear:both;
+}
+.header_menu_box{/*tambahan*/
+	float:right;
+	margin:0px 20px 0px 140px;
+	clear:both;
+}
+#header_menu{ /*paling baru*/
+	float:right;
+	padding:0px 20px;
+	color:black;
+	margin:15px 0px 0px 0px;
+	border-bottom: 3px solid #fff;
+	/*background:#7F97ED;*/
+	font-size:15px;
+	border-left:solid 2px black;
+}/*
+#header_menu:focus,#header_menu:hover{ /*tambahan
+	float:right;
+	padding:0px 33px;
+	color:black;
+	margin:15px 0px 0px 0px;
+	background:rgb(241, 215, 218);
+	font-size:15px;
+	border-bottom: 3px solid #2F4077;
+}
+.noleftborder{border-left:solid 3px yellow}/*tambahan*/
+#input_form{
+	height:30px;
+	width:400px;
+	border-radius:3px;
+	float:left;
+	border:solid 0.5px #D9C9B3;
+	margin:10px;
+	font-size:16px;
+	padding-left:5px;
+}
+#input_form:focus{
+	height:30px;
+	width:400px;
+	border-radius:3px;
+	float:left;
+	border:solid 0.5px #D9C9B3;
+	margin:10px;
+	font-size:16px;
+	padding-left:5px;
+	box-shadow: 0px 0px 4px #888888;
+}
+#label_text{
+	color:black;
+	font-size:16;
+	padding:5px;
+}
+#button{
+	border-radius:3px;
+	background:#9B9890;
+	box-shadow: 0px 0px 4px #888888;
+	font-size:15px;
+	padding:3px 10px;
+	float:left;
+	margin:10px;
+}
+.error_message{
+	display:none;
+	padding:10px;
+	background:white;
+	border:solid 3px red;
+	color:red;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:7px;
+	box-shadow:inset 0 0 5px red;
+}
+.name_comitte{
+	padding:2px 10px 10px 20px;
+	font-weight:normal;
+	text-align:left;
+	width:300px;
+	vertical-align: text-top;
+}
+.position_comitte{
+	padding:2px 2px 10px 2px;
+	font-weight:bold;
+	text-align:left;
+	width:200px;
+	vertical-align: text-top;
+	
+}
+#copyright{/*berubah*/
+	padding:5px;
+	margin:40px 0px 0px 50px;
+	float:left;
+	/*font-weight:bold;*/
+	font-size:18px;
+}
+#backtop{/*paling baru*/
+	float:right;
+	margin:45px;
+	/*font-weight:bold;*/
+	font-size:18px;
+	color:#2D2C29;
+}
+
+#foto_juri_field{
+	float:left;
+	margin:10px;
+}
+#foto_juri_item{
+	float:left;
+	width:100px;
+	height:100px;
+	clear:both;
+	margin:10px 0px 0px 10px;
+	background:yellow;
+	border-radius:50px;
+}
+#juri_info{
+	height:100px;
+	width:600px;
+	background:none;
+	margin:10px;
+	float:left;
+	padding:10px;
+	
+}
+#butt_form{
+	height:30px;
+	width:60px;
+	border-radius:5px;
+	margin:10px;
+	float:left;
+}
+#header{/*tambahan*/
+	/*background:url(../images/header_mini.jpg);*/
+	width:1024px;
+	height:auto;
+	float:left;
+	display:none;
+	margin:-17px 0px 0px 0px;
+}
+#mobile_logo{ /*tambahan*/
+	position:absolute;
+	height:auto;
+	width:190px;
+	float:right;
+	display:none;
+	right:40px;
+	top:100px;
+}
+#menu_top_mini{/*tambahan*/
+	display:none;
+	width:95%;
+	margin:0px;
+	background:#FBF3F4;
+	padding-left:0px;
+}
+#menu_top_mini_item{/*tambahan*/
+	height:30px;
+	padding:5px 12px;
+	color:black;
+}
+#menu_top_mini_item:hover{/*tambahan*/
+	height:30px;
+	padding:5px 12px;
+	color:#E5322D;
+}
+
+/*paling baru*/
+.galery_thumb{
+	height:170px;
+	width:170px;
+	margin:10px 0px 0px 10px;
+	border:solid 3px #F97668;
+	float:left;
+}
+.partner_icon{
+	float:left;
+	height:80px;
+	margin:20px 10px;
+}

@@ -1,0 +1,29 @@
+@media all and (max-width: 1024px)  { 
+	#left_side{
+		display:none;
+	}
+	#wrapper {width:100%}
+	#header{display:block;height:auto}
+	#page_header{display:none}
+	#mobile_logo{display:block}
+	#menu_top_mini{display:block;width:100%}
+	#watermark{display:none}
+	#mobile_logo{top:90px}
+	#footer{background:#E5322D}
+}
+@media all and (max-width: 768px)  {  
+	body{ font-size:14px}
+	#header{display:block;height:140px;width:100%}
+	#mobile_logo{top:80px;width:150px}
+	#wrapper {width:100%}
+
+}
+@media all and (max-width: 520px)  {  
+	body, .text, a{font-size:14px}
+	h1,h2,h3{font-size:20px}
+	#header{display:block;height:100px;width:100%}
+	#mobile_logo{top:40px;width:110px}
+	#wrapper {width:100%}
+	
+	
+}

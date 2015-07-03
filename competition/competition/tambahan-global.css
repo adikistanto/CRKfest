@@ -1,0 +1,22 @@
+.juri_unit{
+	clear:both;
+	float:left;
+	margin:10px;
+	width:90%;
+}
+.foto_juri_item{
+	float:left;
+	width:100px;
+	height:100px;
+	clear:both;
+	margin:10px 10px 0px 10px;
+	background:yellow;
+	border-radius:50px;
+}
+.juri_info{
+	width:70%;
+	background:none;
+	margin:0px 10px;
+	float:left;
+	
+}

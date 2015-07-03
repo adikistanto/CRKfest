@@ -1,0 +1,40 @@
+#menu_top_mini ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  list-style: none;
+  }
+#menu_top_mini ul li {
+  display: inline-block;
+  position: relative;
+  background: #FBF3F4;
+  cursor: pointer;
+}
+#menu_top_mini ul li a{
+  color:black;
+}
+#menu_top_mini ul li:hover,#menu_top_mini ul li a:hover {
+  background:#E5322D;
+  color: #fff;
+}
+#menu_top_mini ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 150px;
+  display: none; 
+  visibility: hidden;
+  z-index:5;
+}
+#menu_top_mini ul li ul li { 
+  background:#E5322D; 
+  display: block; 
+  color: #fff;
+  padding:5px;
+}
+#menu_top_mini ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
